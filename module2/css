@@ -1,1 +1,9 @@
-
+body{
+	background-color:white;
+	font-size:75%;
+	font-family: "Lucida Sans", sans-serif;
+}
+ h1 > div{
+ 	padding:10px;
+ 	text-align:left;
+ }

@@ -1,0 +1,125 @@
+@media(min-width:1023px){
+	.box1{
+	width:20%;
+	height:100%;
+	background-color: #7fffd4;
+	float:left;
+	margin-right:10px;
+	margin-left:0px;
+	font-size:30px;
+	text-align:center;
+}
+.box2{
+	width:20%;
+	height:100%;
+	background-color: #7fffd4;
+	float:right;
+	margin-left:10px;
+	margin-right:0px;
+	font-size:30px;
+	text-align:center;
+	overflow:auto;
+}
+.lake{
+	text-align:center;
+	color:darkblue;
+}
+body{
+	margin-left:0px;
+	margin-right:0px;
+	background-color: #98fb98;
+}
+div > p{
+	font-size:20px;
+}
+.things{
+	color:black;
+	font-size:40px;
+}
+.list{
+	color:darkgreen;
+	font-size:20px;
+}
+.tickets{
+	color:darkblue;
+	font-size:30px;
+}
+a{
+	font-size:20px;
+}
+a:hover{
+	color:red;
+	font-size:20px;
+}
+a:active{
+	color:red;
+	font-size:20px;
+}
+.photo{
+	width:50%;
+	height:50%;
+}
+}
+@media(max-width:1022px){
+	.box1s{
+	width:20%;
+	height:100%;
+	background-color: #7fffd4;
+	float:left;
+	margin-right:10px;
+	margin-left:0px;
+	font-size:100%;
+	text-align:center;
+	overflow:auto;
+}
+.box2s{
+	width:20%;
+	height:100%;
+	background-color: #7fffd4;
+	float:right;
+	margin-left:10px;
+	margin-right:0px;
+	font-size:30px;
+	text-align:center;
+	overflow:auto;
+}
+.lake{
+	text-align:center;
+	color:darkblue;
+}
+body{
+	margin-left:0px;
+	margin-right:0px;
+	background-color: #98fb98;
+}
+div > p{
+	font-size:10px;
+}
+.things{
+	color:black;
+	font-size:30px;
+}
+.list{
+	color:darkgreen;
+	font-size:10px;
+}
+.tickets{
+	color:darkblue;
+	font-size:20px;
+}
+a{
+	font-size:10px;
+}
+a:hover{
+	color:red;
+	font-size:10px;
+}
+a:active{
+	color:red;
+	font-size:10px;
+}
+.photo{
+	width:50%;
+	height:30%;
+}
+}

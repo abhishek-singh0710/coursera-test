@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: red;
+    /* position: absolute; */
+}
+
+.image{
+    width: 30vw;
+    height: 30vh;
+    transform: rotateZ(360deg);
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vw;
+    position: relative;
+    border: solid springgreen 2px;
+    transform: rotateZ(45deg);
+    animation: move 5s infinite;
+    box-shadow: 0 0 20px teal;
+    left: 70%;
+    margin-left: 0px;
+}
+.image{
+    width: 15vw;
+    height: 15vw;
+    transform: rotateZ(-45deg);
+}
+
+@keyframes move{
+    0% {top: 5vh;}
+    50% {top: 10vh;}
+    100% {top: 5vh;}
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 15vh;
+    background-color: teal;
+    font-size: 3vw;
+    margin-bottom: 8vh;
+    flex-direction: row;
+    gap: 60vw;
+}
+
+.Menu{
+    display: grid;
+    gap: 10px;
+}
+.name-hello{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 22vw;
+    font-size: 2.5vw;
+    left: 5vw;
+    /* top: 40vh; */
+    color: white;
+    word-spacing: 10px;
+
+}
+
+.name{
+    position: absolute;
+    top: 15vw;
+    font-size: 5vw;
+    left: 5vw;
+    margin-top: 2px;
+    color: white;
+    word-spacing: 10px;
+}
+
+.hello{
+    display: flex;
+    position: absolute;
+    top: 12vw;
+    left: 5vw;
+    font-size: 2.5vw;
+    margin-bottom: 1vh;
+    color: white;
+    word-spacing: 10px;
+}
+
+.Description{
+    margin-top: 0px;
+    font-size: 5vw;
+}
+
+.word{
+    width: 50vw;
+    /* border: solid teal; */
+    position: absolute;
+    font-size: 1.5vw;
+    color: white;
+    top: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    left: 5vw;
+}
+
+/* .i{
+    position: absolute;
+    top: 40vw;
+    left: 10vw;
+} */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    position: absolute;
+    top: 40vw;
+    left: 10vw;
+    background: black;
+    color: white;
+    border: solid seagreen;
+    box-shadow: 0 0 10px seagreen;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    position: absolute;
+    top: 40vw;
+    left: 15vw;
+    background: black;
+    color: white;
+    border: solid seagreen;
+    box-shadow: 0 0 10px seagreen;
+  }
+
+  .fa {
+    padding: 10px;
+    display: flex;
+    font-size: 2vw;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: seagreen;
+  }
+
+  .fa-twitter{
+    padding: 12px;
+  }
